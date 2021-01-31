@@ -1,0 +1,60 @@
+/* Variables */
+$font-navigation: 'Dancing Script', cursive;
+
+
+
+
+
+
+
+/* Global */
+.top {
+    background-image: url('https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-3785931.jpg&fm=jpg'); 
+}
+
+
+
+
+
+/* Navigation */
+.container {
+    display: flex;
+    h4 {
+        font-family: $font-navigation;
+        color: #f1c40f;
+        font-size: 40px;
+        flex-direction: row;
+    }
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: auto;
+        flex-direction: row;
+        li {
+            margin: 0 40px 0 0;
+            color: #ffffff;
+        }
+    }
+}
+li:hover {
+    cursor: pointer;
+}
+/* Header */
+header {
+    .container {
+        flex-direction: column;
+        h2 {
+            margin: auto;
+            color: #ffffff;
+        }
+        h1 {
+            margin: auto;
+            color: #ffffff;
+        }
+        button {
+            margin: auto;
+            background-color: #f1c40f;
+            color: #ffffff;
+        }
+    }
+}
