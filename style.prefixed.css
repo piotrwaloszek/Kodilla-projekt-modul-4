@@ -1,0 +1,23 @@
+/* Variables */
+/* Global */
+.top { background-image: url("https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-3785931.jpg&fm=jpg"); }
+
+/* Navigation */
+.container { display: -ms-flexbox; display: flex; }
+
+.container h4 { font-family: "Dancing Script", cursive; color: #f1c40f; font-size: 40px; -ms-flex-direction: row; flex-direction: row; }
+
+.container ul { display: -ms-flexbox; display: flex; list-style-type: none; margin: auto; -ms-flex-direction: row; flex-direction: row; }
+
+.container ul li { margin: 0 40px 0 0; color: #ffffff; }
+
+li:hover { cursor: pointer; }
+
+/* Header */
+header .container { -ms-flex-direction: column; flex-direction: column; }
+
+header .container h2 { margin: auto; color: #ffffff; }
+
+header .container h1 { margin: auto; color: #ffffff; }
+
+header .container button { margin: auto; background-color: #f1c40f; color: #ffffff; }

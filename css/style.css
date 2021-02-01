@@ -2,22 +2,26 @@
 /* Global */
 .top { background-image: url("https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-3785931.jpg&fm=jpg"); }
 
+body { margin: 0 auto; }
+
 /* Navigation */
-.container { display: flex; }
+.container { display: flex; justify-content: flex-end; }
 
-.container h4 { font-family: "Dancing Script", cursive; color: #f1c40f; font-size: 40px; flex-direction: row; }
+.container h4 { font-family: "Dancing Script", cursive; color: #f1c40f; font-size: 30px; flex-direction: row; width: 1140px; }
 
-.container ul { display: flex; list-style-type: none; margin: auto; flex-direction: row; }
+.container ul { display: flex; list-style-type: none; align-items: center; flex-direction: row; }
 
-.container ul li { margin: 0 40px 0 0; color: #ffffff; }
+.container ul li { margin: 0 15px 0 0; color: #ffffff; }
 
 li:hover { cursor: pointer; }
 
 /* Header */
-header .container { flex-direction: column; }
+.splash { display: flex; justify-content: center; align-items: center; min-height: 600px; }
 
-header .container h2 { margin: auto; color: #ffffff; }
+.splash .splash-inner { display: flex; flex-direction: column; color: #ffffff; line-height: 2.5; }
 
-header .container h1 { margin: auto; color: #ffffff; }
+.splash .splash-inner h2 { font-size: 40px; font-style: italic; margin: auto; }
 
-header .container button { margin: auto; background-color: #f1c40f; color: #ffffff; }
+.splash .splash-inner h1 { font-size: 60px; font-weight: bold; margin: auto; }
+
+.splash .splash-inner a { background: #f1c40f; margin: auto; border: none; border-radius: 5px; text-decoration: none; color: #ffffff; padding: 20px 60px; }

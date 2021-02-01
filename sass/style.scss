@@ -1,37 +1,45 @@
 /* Variables */
 $font-navigation: 'Dancing Script', cursive;
-
-
-
-
-
-
+$font-text: 'Roboto', sans-serif;
+$background-main: #ffffff;
+$background-main-2: #bdc3c7;
+$text-color-1: #2d3436;
+$text-color-2: #ecf0f1;
 
 /* Global */
 .top {
     background-image: url('https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-3785931.jpg&fm=jpg'); 
 }
-
-
-
-
+.title {
+    font-family: $font-text;
+}
+.subtitle {
+    font-family: $font-text;
+    font-style: italic;
+    color: $text-color-2;
+}
+body {
+    margin: 0 auto;
+}
 
 /* Navigation */
 .container {
     display: flex;
+    justify-content: flex-end;
     h4 {
         font-family: $font-navigation;
         color: #f1c40f;
-        font-size: 40px;
+        font-size: 30px;
         flex-direction: row;
+        width: 1140px;
     }
     ul {
         display: flex;
         list-style-type: none;
-        margin: auto;
+        align-items: center;
         flex-direction: row;
         li {
-            margin: 0 40px 0 0;
+            margin: 0 15px 0 0;
             color: #ffffff;
         }
     }
@@ -40,21 +48,34 @@ li:hover {
     cursor: pointer;
 }
 /* Header */
-header {
-    .container {
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    .splash-inner {
+        display: flex;
         flex-direction: column;
-        h2 {
+        color:#ffffff;
+        line-height: 2.5;
+        h2{
+            font-size: 40px;
+            font-style: italic;
             margin: auto;
-            color: #ffffff;
         }
         h1 {
+            font-size: 60px;
+            font-weight: bold;
             margin: auto;
-            color: #ffffff;
         }
-        button {
+        a {
+            background:#f1c40f;
             margin: auto;
-            background-color: #f1c40f;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
             color: #ffffff;
+            padding: 20px 60px;
         }
     }
 }
