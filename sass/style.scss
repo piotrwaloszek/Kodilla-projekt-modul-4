@@ -177,3 +177,30 @@ footer {
         }
     }
 }
+
+@media (min-width: 200px) and (max-width: 720px) {
+    .splash-inner {
+        text-align: center;
+    }
+    .container-parent {
+        display: block;
+        .container {
+            display: block;
+            .text-parent {
+                display: block;
+            }
+        }
+    }
+    .Portfolio {
+        display: block;
+        .container-parent {
+            display: block;
+            .box-image {
+                display: block;
+                .image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
