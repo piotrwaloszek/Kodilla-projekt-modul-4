@@ -2,7 +2,7 @@
 $font-navigation: 'Dancing Script', cursive;
 $font-text: 'Roboto', sans-serif;
 $background-main: #ffffff;
-$background-main-2: #bdc3c7;
+$background-main-2: #f5f6fa;
 $text-color-1: #2d3436;
 $text-color-2: #95afc0;
 
@@ -23,7 +23,7 @@ $text-color-2: #95afc0;
     font-style: italic;
     color: $text-color-2;
     margin: auto;
-    padding: 0 0 150px 0;
+    padding: 0 0 100px 0;
     text-align: center;
     font-size: 19px;
 }
@@ -110,6 +110,42 @@ li:hover {
                     text-align: center;
                     width: 70px;
                     margin: 0 0 25px 0;
+            }
+        }
+    }
+}
+
+/* Our Portfolio */
+.Portfolio {
+    background: $background-main-2;
+    .container-parent {
+        flex-direction: column;
+        .box-image {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1140px;
+            margin: auto;
+            align-items: center;
+            .box-description {
+                background: #ffffff;
+            }
+            .image {
+                width: 33.3333%;
+                padding: 0 30px 0 0;
+                .title-2 {
+                    text-align: center;
+                    background-color: #ffffff;
+                    margin: auto;
+                }
+                .subtitle {
+                    background-color: #ffffff;
+                    padding: 0;
+                } 
+                img {
+                    width: 100%;
+                    padding: 40px 0 0 0;
+                }    
             }
         }
     }
