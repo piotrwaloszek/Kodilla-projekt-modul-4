@@ -2,14 +2,20 @@
 /* Global */
 .top { background-image: url("https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-3785931.jpg&fm=jpg"); }
 
+.title { font-family: "Roboto", sans-serif; margin: auto; padding: 0 0 10px 0; text-align: center; font-weight: bold; font-size: 35px; }
+
+.subtitle { font-family: "Roboto", sans-serif; font-style: italic; color: #95afc0; margin: auto; padding: 0 0 150px 0; text-align: center; font-size: 19px; }
+
+.title-2 { font-size: 24px; }
+
 body { margin: 0 auto; }
 
 /* Navigation */
-.container { display: flex; justify-content: flex-end; }
+.container { display: flex; }
 
-.container h4 { font-family: "Dancing Script", cursive; color: #f1c40f; font-size: 30px; flex-direction: row; width: 1140px; }
+.container h4 { font-family: "Dancing Script", cursive; color: #f1c40f; font-size: 30px; width: 1140px; }
 
-.container ul { display: flex; list-style-type: none; align-items: center; flex-direction: row; }
+.container ul { display: flex; list-style-type: none; align-items: center; }
 
 .container ul li { margin: 0 15px 0 0; color: #ffffff; }
 
@@ -25,3 +31,14 @@ li:hover { cursor: pointer; }
 .splash .splash-inner h1 { font-size: 60px; font-weight: bold; margin: auto; }
 
 .splash .splash-inner a { background: #f1c40f; margin: auto; border: none; border-radius: 5px; text-decoration: none; color: #ffffff; padding: 20px 60px; }
+
+/* Services */
+.container-parent { display: flex; padding: 100px 0 0 0; }
+
+.container-parent .container { flex-direction: column; }
+
+.container-parent .container .text-parent { justify-content: space-between; display: flex; }
+
+.container-parent .container .text-parent .box { text-align: -webkit-center; }
+
+.container-parent .container .text-parent .icon { padding: 0 0 25px 0; border: 5px solid  #f1c40f; height: 70px; -webkit-border-radius: 50%; font-size: 40px; color: #f1c40f; text-align: center; width: 70px; margin: 0 0 25px 0; }
