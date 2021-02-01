@@ -127,6 +127,7 @@ li:hover {
             max-width: 1140px;
             margin: auto;
             align-items: center;
+            padding: 0 0 100px 0;
             .box-description {
                 background: #ffffff;
             }
@@ -146,6 +147,32 @@ li:hover {
                     width: 100%;
                     padding: 40px 0 0 0;
                 }    
+            }
+        }
+    }
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .text-footer {
+        font-size: 20px;
+    }
+    .footer-list {
+        font-size: 40px;
+        a {
+            border: solid;
+            background-color: #2d3436;
+            color: #ffffff;
+            border-radius: 50%;
+            padding: 10px;
+            i {
+                width: 50px;
+                text-align: center;
             }
         }
     }
